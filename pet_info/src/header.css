@@ -1,0 +1,26 @@
+/* Styling of the header */
+
+.header {
+    display: flex;
+    font-weight: 500;
+    margin: 3rem 3rem 0 3rem;
+    padding: 0.5rem 0 0.5rem 0;
+    background-color: rgb(226, 220, 220);
+
+}
+
+/* The container header has 2 children, player, the left side, who is given a 40% width; and other info, the right side, with 60% */
+
+.player {
+    width: 40%;
+    text-align: center;
+}
+
+.other_info {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-left: 1rem;
+}
+

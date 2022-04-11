@@ -1,0 +1,62 @@
+/* Layout of InfoCard component. Set according to the example given in the exercise, with images, numbers and strings */
+
+
+/*We set each and every element in our site to have 0 margin and 0 padding, thus the site looks the same in every browser  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.user {
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    cursor: pointer;
+    background-color: rgb(233, 230, 230);
+    border-top: 1px solid lightgrey;
+}
+
+/* Styling left side (img and full name) */
+.left_side {
+    width: 40%;
+    display: flex;
+    align-items:center;
+}
+
+.user_image img{
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.user_full_name{
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.user_name {
+    font-weight: 500;
+    display: flex;
+    flex-flow: row;
+    margin: 0rem;
+    padding: 0rem;
+    text-align: start;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+/* Styling right side (age, postcode, city, country) */
+.right_side{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content:space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.right_side p {
+    width: 15%;
+}
